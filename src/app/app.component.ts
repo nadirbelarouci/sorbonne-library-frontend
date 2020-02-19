@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {MediaObserver} from '@angular/flex-layout';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'sl-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'sorbonne-library';
+export class AppComponent implements OnInit {
+
+    constructor(private media: MediaObserver) {
+    }
+
+    ngOnInit(): void {
+    }
+
 }

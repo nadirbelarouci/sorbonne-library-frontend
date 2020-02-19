@@ -1,0 +1,120 @@
+.sl-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sl-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: ghostwhite;
+}
+
+
+.sl-toolbar-logo {
+    max-width: 100px;
+    max-height: 70px;
+    margin-left: 8px;
+}
+
+.sl-sidenav-container {
+    flex: 1 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    max-width: 100%;
+    margin: 0;
+    -webkit-transform: none;
+    transform: none;
+    width: 100%;
+    background: white;
+
+}
+
+.sl-menu-button {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: solid lightgray 1px;
+    transition: background-color 0.5s;
+    color: lightgray;
+}
+
+.sl-menu-button:hover {
+    color: white;
+    background-color: #23629A;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.sl-back-button {
+    left: 200px;
+    bottom: 20px;
+    position: fixed;
+    border-radius: 50%;
+    border: solid 1px lightgray;
+    padding-left: 10px;
+    transition: background-color 0.5s;
+    color: lightgray;
+
+}
+.sl-back-button:hover {
+    color: white;
+    background-color: #23629A;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sl-sidenav-content {
+    top: 64px;
+    font-size: 15px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    margin: 0 1vh 100px 1vh;
+    padding: 0 10px;
+
+}
+
+.sl-sidenav-content-margin-gt-lg {
+    margin: 0 20vh;
+}
+.sl-sidenav-content-margin-gt-sm {
+    margin: 0 10vh;
+}
+.sl-sidenav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    min-width: 260px;
+    background-color: #fff;
+}
+.sl-sidenav-list-item {
+    background: white;
+}
+
+.sl-footer {
+    position: relative;
+    line-height: 2.4rem;
+    -webkit-flex: 1;
+    flex: 1;
+    flex-shrink: 0;
+    padding: 48px;
+    z-index: 0;
+    background-color: #1976d2;
+    font-weight: 300;
+}
+
+
+.sl-footer-content {
+    font-weight: 300;
+    font-size: 35px;
+}

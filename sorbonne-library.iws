@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25f4801b-f156-4f15-9be7-434ac36cdf0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/InMemoryDataService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/angular-material.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/books/books.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/books/books.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/books/books.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/model/book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/search-bar/search-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/search-bar/search-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/search-bar/search-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XeyM6wW6PaZduVHjdVk5FNHv1u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="C:\Users\nadir\Documents\sorbonne-library\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nadir\Documents\sorbonne-library\src\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (sorbonne-library)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25f4801b-f156-4f15-9be7-434ac36cdf0f" name="Default Changelist" comment="" />
+      <created>1581420803080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581420803080</updated>
+      <workItem from="1581420806089" duration="9162000" />
+      <workItem from="1581436228252" duration="569000" />
+      <workItem from="1581502816909" duration="2580000" />
+      <workItem from="1581601224496" duration="627000" />
+      <workItem from="1581674313949" duration="57000" />
+      <workItem from="1581949978190" duration="892000" />
+      <workItem from="1582011906037" duration="2891000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1581431498750">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581431498750" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1581421235025">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1581421235025" />
+    <state x="421" y="43" key="FileChooserDialogImpl" timestamp="1582098420405">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="43" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582098420405" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1581427408109">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581427408109" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1581427408109">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581427408109" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1581427408109">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581427408109" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1581427408109">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581427408109" />
+    <state x="315" y="41" key="NewModule_or_Project.wizard" timestamp="1582098433372">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="315" y="41" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1582098433372" />
+    <state x="336" y="72" width="739" height="536" key="find.popup" timestamp="1581426657914">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="336" y="72" width="739" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1581426657914" />
+    <state x="504" y="267" width="348" height="298" key="org.angular.cli.generate" timestamp="1581431935411">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="504" y="267" width="348" height="298" key="org.angular.cli.generate/0.0.1280.680@0.0.1280.680" timestamp="1581431935411" />
+  </component>
+</project>

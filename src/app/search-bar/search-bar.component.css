@@ -1,0 +1,28 @@
+
+.sl-search-bar-input {
+    height: 35px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', FontAwesome, sans-serif;
+    border-radius: 20px;
+
+}
+
+.sl-search-bar-input-icon {
+    position: fixed;
+    z-index: 0;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+
+.sl-search-bar-input:focus {
+    outline: none;
+    box-shadow: 0 0 3pt 2pt lavender;
+
+}
+
+.sl-search-bar-input:focus + .sl-search-bar-input-icon {
+    opacity: 0;
+
+}

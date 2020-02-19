@@ -1,0 +1,18 @@
+
+.sl-books-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.sl-books-count {
+    color: lightskyblue;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.sl-books-item {
+    transition: flex-basis .8s;
+}
+
+

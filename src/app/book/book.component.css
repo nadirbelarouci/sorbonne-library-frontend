@@ -1,0 +1,10 @@
+.ls-book-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ls-book-author {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+}

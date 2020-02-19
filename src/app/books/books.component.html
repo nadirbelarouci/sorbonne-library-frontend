@@ -1,0 +1,12 @@
+<div fxLayout="column" class="sl-books-container" fxLayoutGap="10px">
+    <div class="sl-books-items"
+         gdGap="30px"
+         gdGap.gt-md="60px"
+         gdColumns="repeat(auto-fit, minmax(290px, 1fr))">
+        <ng-container *ngFor="let book of books|async">
+            <sl-book [book]="book" class="sl-books-item"
+            ></sl-book>
+        </ng-container>
+    </div>
+    <mat-paginator fxFlex pageSize="9"></mat-paginator>
+</div>

@@ -1,0 +1,13 @@
+
+<mat-card class="book-card mat-elevation-z0" fxLayout="column" fxLayoutGap="5px">
+    <div matRipple fxLayout="row" fxLayoutAlign="center center">
+        <img class="book-card-content-image" mat-card-image [src]="book.cover">
+    </div>
+    <div>
+        <mat-divider></mat-divider>
+    </div>
+    <mat-card-content class="book-card-content ">
+        <div fxFlex class="ls-book-title">{{book.title}}</div>
+        <div class="ls-book-author">By{{' ' + book.author}}</div>
+    </mat-card-content>
+</mat-card>
