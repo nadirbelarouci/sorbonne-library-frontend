@@ -1,0 +1,10 @@
+.sl-upload-book-container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}

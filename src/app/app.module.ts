@@ -12,10 +12,16 @@ import {BooksComponent} from "./books/books.component";
 import {BookService} from "./service/book.service";
 import {HttpClientInMemoryWebApiModule} from "angular-in-memory-web-api";
 import {InMemoryDataService} from "./InMemoryDataService";
+import { AppRoutingModule } from './app-routing.module';
+import { UploadBookComponent } from './upload-book/upload-book.component';
+import {MaterialFileInputModule} from "ngx-material-file-input";
+import {ReactiveFormsModule} from "@angular/forms";
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
+import {MatSnackBarModule} from "@angular/material/snack-bar";
 
 @NgModule({
     declarations: [
-        AppComponent, SearchBarComponent, BookComponent, BooksComponent
+        AppComponent, SearchBarComponent, BookComponent, BooksComponent, UploadBookComponent
     ],
     imports: [
         BrowserModule,
@@ -25,7 +31,12 @@ import {InMemoryDataService} from "./InMemoryDataService";
         HttpClientModule,
         HttpClientInMemoryWebApiModule.forRoot(
             InMemoryDataService, {dataEncapsulation: false}
-        )
+        ),
+        AppRoutingModule,
+        MaterialFileInputModule,
+        ReactiveFormsModule,
+        MatProgressSpinnerModule,
+        MatSnackBarModule
     ],
     providers: [{provide: 'baseUrl', useValue: env.baseUrl}, BookService],
     bootstrap: [AppComponent]

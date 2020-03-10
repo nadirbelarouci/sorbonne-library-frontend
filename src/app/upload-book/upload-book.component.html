@@ -1,0 +1,21 @@
+<div class="sl-upload-book-container">
+    <div class="text-center">
+        <h2>Upload book</h2>
+        <div *ngIf="loading; else elseBlock">
+            <mat-spinner diameter="50" style="margin:0 auto;"></mat-spinner>
+        </div>
+        <ng-template #elseBlock>
+            <div>
+                <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+                    <mat-form-field>
+                        <ngx-mat-file-input formControlName="bookFile" placeholder="Book file"></ngx-mat-file-input>
+                        <mat-icon matSuffix>book</mat-icon>
+                    </mat-form-field>
+                    <div>
+                        <button color="primary" mat-raised-button>Upload</button>
+                    </div>
+                </form>
+            </div>
+        </ng-template>
+    </div>
+</div>
